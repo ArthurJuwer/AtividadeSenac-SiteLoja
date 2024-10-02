@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    height: 100vh;
+}
+header{
+    text-align: center;
+    padding: 2.5rem 0rem;
+    background: red;
+    color: white;
+
+    h1{
+        padding-bottom: 0.5rem;
+    }
+    
+}
+nav{
+    text-align: center;
+    padding: 1rem 0;
+    background: #000;
+    a{
+        color: white;
+        text-decoration: none;
+        margin: 0 0.5rem;
+    }
+}
+
+.background-main{
+    height: 70vh;
+    width: 100%;
+    background-image: url('https://cdn.prod.website-files.com/60ff690cd7b0537edb99a29a/66f5b6e1438ea35fa9187910_Renato%20Cariani%20Artigo%20Biografia.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    ul{
+        padding-left: 5vw;
+        padding-top: 25vh;
+        color: white;
+        list-style-type: none;
+    }
+    li{
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+}
+footer{
+    padding: 1.38rem;
+    text-align: center;
+    background: black;
+    color: white;
+
+    p{
+        padding: 0.2rem;
+    }
+
+    div{
+        img{
+            width: 2rem;
+        }
+    }
+}

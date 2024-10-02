@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Vendas</title>
+    <link rel="stylesheet" href="/css/vendas.css">
+</head>
+<body>
+    <header>
+        <h1>Loja do Maromba</h1>
+    </header>
+
+    <main>
+        <nav class="menu">
+            <a href="">Página Inicial</a>
+            <a href="/pages/ctrl-estoque.html">Controle de Estoque</a>
+            <a href="/pages/add-produto.html">Adicionar Produto</a>
+            <a href="/pages/funcionarios.html">Funcionários</a>
+            <a href="/pages/vendas.html">Pagina de Vendas</a>
+            <a href="/pages/historico.html">Histórico</a>
+        </nav>
+        <section>
+            <h2>Pagina de Vendas</h2>
+
+            <form action="#">
+
+                <label for="produto">Selecione o produto que você escolheu:</label>
+                <select name="produto" id="">
+                    <option value="bolacha">Bolacha Leite</option>
+                    <option value="camisa-batman">Camisa do Batman</option>
+                    <option value="camisa-treino">Camisa Treino Fofo</option>
+                    <option value="whey-concentrado">Whey Concentrado 80%</option>
+                    <option value="whey-isolado">Whey Isolado 90%</option>
+                </select>
+
+                <label for="quantidade">Quantidade:</label>
+                <input type="number" name="quantidade">
+
+                <label for="frete">Digite seu Cep:</label>
+                <input type="number" name="quantidade">
+
+                <label for="pagamento">Forma de Pamento:</label>
+                <select name="pagamento" id="">
+                    <option value="cartao">Cartão de Credito</option>
+                    <option value="dinheiro">Dinheiro</option>
+                    <option value="boleto">Boleto</option>
+                    <option value="pix">Pix</option>
+                </select>
+                
+                <button type="submit">Finalizar Compra</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
