@@ -59,3 +59,20 @@ th{
     border: 0.1rem solid #000;
     color: white;
 }
+
+footer{
+    padding: 1.38rem;
+    text-align: center;
+    background: black;
+    color: white;
+
+    p{
+        padding: 0.2rem;
+    }
+
+    div{
+        img{
+            width: 2rem;
+        }
+    }
+}

@@ -56,3 +56,19 @@ form{
     }
 }
 
+footer{
+    padding: 1.38rem;
+    text-align: center;
+    background: black;
+    color: white;
+
+    p{
+        padding: 0.2rem;
+    }
+
+    div{
+        img{
+            width: 2rem;
+        }
+    }
+}

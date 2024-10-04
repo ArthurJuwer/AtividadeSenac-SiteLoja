@@ -40,3 +40,37 @@ section{
 ol{
     padding-left: 2rem;
 }
+footer{
+    padding: 1.38rem;
+    text-align: center;
+    background: black;
+    color: white;
+
+    p{
+        padding: 0.2rem;
+    }
+
+    div{
+        img{
+            width: 2rem;
+            cursor: pointer;
+        }
+    }
+}
+
+footer{
+    padding: 1.38rem;
+    text-align: center;
+    background: black;
+    color: white;
+
+    p{
+        padding: 0.2rem;
+    }
+
+    div{
+        img{
+            width: 2rem;
+        }
+    }
+}
