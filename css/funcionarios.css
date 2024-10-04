@@ -36,3 +36,7 @@ section{
         padding-bottom: 1rem;
     }
 }
+
+ol{
+    padding-left: 2rem;
+}
